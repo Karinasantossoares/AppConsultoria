@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".CadastrarProdutoActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_produto_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="@dimen/margin"
+        android:layout_marginVertical="60dp"
+        android:src="@drawable/produto_logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_title_produto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin"
+        android:text="Cadastrar produtos"
+        android:textColor="@color/dark"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@id/iv_produto_logo"
+        app:layout_constraintLeft_toRightOf="@id/iv_produto_logo"
+        app:layout_constraintTop_toTopOf="@id/iv_produto_logo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_cadastrar_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginBottom="150dp"
+        android:text="CADASTRAR"
+        app:layout_constraintTop_toBottomOf="@id/et_quantidade_produto"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_voltar_produto"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_cadastrar_produto"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginVertical="@dimen/margin_vertical"
+        android:text="Voltar"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_nome_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:hint="@string/nome_produto"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/iv_produto_logo" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_valor_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:hint="@string/valor_produto"
+        app:layout_constraintTop_toBottomOf="@id/et_nome_produto" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_quantidade_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:hint="Quantidade do produto"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/et_valor_produto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

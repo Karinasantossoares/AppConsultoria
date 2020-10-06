@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContatoActivity"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_detalhe_contato"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/detalhe_contato"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginVertical="@dimen/margin"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contato empresa"
+        android:textSize="15sp"
+        android:textColor="@color/dark"
+        app:layout_constraintBottom_toBottomOf="@id/iv_detalhe_contato"
+        app:layout_constraintTop_toTopOf="@id/iv_detalhe_contato"
+        android:layout_marginLeft="180dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_nome_empresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/iv_detalhe_contato"
+        android:layout_marginVertical="@dimen/margin_vertical"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:text="@string/supermercado_dia_a_dia"
+        android:textSize="@dimen/tamanho_fonte"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_endereco_empresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_nome_empresa"
+        android:layout_marginVertical="@dimen/margin_vertical"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:text="@string/endere_o_quadra_02_conjuntoi_df"
+        android:textSize="@dimen/tamanho_fonte"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

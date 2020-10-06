@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ProgramaConsultoria</string>
+    <string name="mensagem_cadastro_cliente">CADASTRAR CLIENTE</string>
+    <string name="hint_nome">NOME:</string>
+    <string name="cpf">CPF:</string>
+    <string name="rg">RG</string>
+    <string name="codigo_cliente">Código cliente :</string>
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="cadastro_realizado">CADASTRO REALIZADO</string>
+    <string name="detalhe_empresa">A empresa</string>
+    <string name="historia">O Grupo Pão de Açúcar nasceu com uma doceria de mesmo nome fundada em 1948 pelo imigrante português Valentim dos Santos Diniz. O primeiro supermercado da rede foi aberto em 1959. ... Em 2002, compra a rede Sé Supermercados, com 60 lojas em 16 municípios do Estado de São Paulo, e a Rede Comprebem, de Pernambuco.</string>
+    <string name="voltar">VOLTAR</string>
+    <string name="text_servicos">Serviços</string>
+    <string name="text_cadastro_funcionario">Cadastrar funcionário</string>
+    <string name="text_cadastrar_produto">cadastrar produto</string>
+    <string name="title_funcionario">CADASTRO FUNCIONÁRIO</string>
+    <string name="nome_do_funcionario">Nome do funcionario :</string>
+    <string name="funcao_funcion_rio">Funcao funcionário :</string>
+    <string name="id">ID:</string>
+    <string name="visualizar_cadastro">Visualizar cadastro</string>
+    <string name="funcionarios_cadastrados">Funcionarios cadastrados</string>
+    <string name="detalhes_aqui">Detalhes aqui :</string>
+    <string name="produtos_cadastrados">Produtos cadastrados</string>
+    <string name="nome_produto">Nome produto</string>
+    <string name="valor_produto">Valor produto :</string>
+    <string name="produto_cadastrado">Produto cadastrado</string>
+    <string name="visualizar_produtos_cadastrados">Visualizar produtos cadastrados</string>
+    <string name="supermercado_dia_a_dia">Supermercado Dona de casa</string>
+    <string name="endere_o_quadra_02_conjuntoi_df">Endereço : Quadra 02 conjunto I -Brasília -DF</string>
+</resources>
